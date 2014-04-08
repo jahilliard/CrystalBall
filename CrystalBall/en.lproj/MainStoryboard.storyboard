@@ -1,23 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C3012" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="xzb-L9-7RJ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="321" id="C9z-pM-HAM"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" text="It is decidedly so" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="jox-1o-Aaf">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="gxJ-MP-eqY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="1" green="0.9800423535302315" blue="0.99951357192886492" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xzb-L9-7RJ" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" type="default" id="0xA-bf-Jce"/>
+                            <constraint firstAttribute="trailing" secondItem="jox-1o-Aaf" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="62b-hQ-oiw"/>
+                            <constraint firstItem="jox-1o-Aaf" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="CbU-Nb-cs7"/>
+                            <constraint firstItem="xzb-L9-7RJ" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="VYc-2t-lLB"/>
+                            <constraint firstItem="xzb-L9-7RJ" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="ff0-KW-A5N"/>
+                            <constraint firstItem="jox-1o-Aaf" firstAttribute="top" secondItem="3" secondAttribute="top" constant="213" id="oEc-dK-SJj"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="predictionLabel" destination="jox-1o-Aaf" id="xsz-4E-y77"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="background.png" width="16" height="16"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

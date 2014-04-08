@@ -18,6 +18,9 @@
 		0C7774FF1745ECEE0076AEC5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7774FE1745ECEE0076AEC5 /* Default-568h@2x.png */; };
 		0C7775021745ECEE0076AEC5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7775001745ECEE0076AEC5 /* MainStoryboard.storyboard */; };
 		0C7775051745ECEE0076AEC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7775041745ECEE0076AEC5 /* ViewController.m */; };
+		0C77750F1748C4410076AEC5 /* button_bg_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C77750E1748C4410076AEC5 /* button_bg_on.png */; };
+		0C7775111748C45D0076AEC5 /* button_bg_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7775101748C45D0076AEC5 /* button_bg_off.png */; };
+		0C77751317492C580076AEC5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C77751217492C580076AEC5 /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		0C7775011745ECEE0076AEC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0C7775031745ECEE0076AEC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0C7775041745ECEE0076AEC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C77750E1748C4410076AEC5 /* button_bg_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_bg_on.png; path = ../../../../Downloads/CrystalBall/CrystalBall/button_bg_on.png; sourceTree = "<group>"; };
+		0C7775101748C45D0076AEC5 /* button_bg_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_bg_off.png; path = ../../../../Downloads/CrystalBall/CrystalBall/button_bg_off.png; sourceTree = "<group>"; };
+		0C77751217492C580076AEC5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "../../../../Downloads/CrystalBall-1/CrystalBall/background.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 		0C7774EE1745ECED0076AEC5 /* CrystalBall */ = {
 			isa = PBXGroup;
 			children = (
+				0C77750B1748C0290076AEC5 /* images */,
 				0C7774F71745ECED0076AEC5 /* AppDelegate.h */,
 				0C7774F81745ECED0076AEC5 /* AppDelegate.m */,
 				0C7775001745ECEE0076AEC5 /* MainStoryboard.storyboard */,
@@ -105,6 +112,16 @@
 				0C7774FE1745ECEE0076AEC5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C77750B1748C0290076AEC5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0C77751217492C580076AEC5 /* background.png */,
+				0C7775101748C45D0076AEC5 /* button_bg_off.png */,
+				0C77750E1748C4410076AEC5 /* button_bg_on.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +180,9 @@
 				0C7774FD1745ECEE0076AEC5 /* Default@2x.png in Resources */,
 				0C7774FF1745ECEE0076AEC5 /* Default-568h@2x.png in Resources */,
 				0C7775021745ECEE0076AEC5 /* MainStoryboard.storyboard in Resources */,
+				0C77750F1748C4410076AEC5 /* button_bg_on.png in Resources */,
+				0C7775111748C45D0076AEC5 /* button_bg_off.png in Resources */,
+				0C77751317492C580076AEC5 /* background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
